@@ -9,7 +9,7 @@ const Header = () => {
         <span className="flex items-end">
           <img src="../../public/logo.png" className="h-12" alt="logo"></img>
           <div className="text-xl font-bold p-1">
-            <span className="">Ask</span>
+            <span className="m">Ask</span>
             <span>Serum</span>
           </div>
         </span>
