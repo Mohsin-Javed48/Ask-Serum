@@ -6,7 +6,12 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        askBlue: "#40E0D0",
+        serumYellow: "#FFA500 ",
+      },
+    },
   },
   plugins: [],
 };

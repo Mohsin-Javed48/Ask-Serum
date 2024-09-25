@@ -10,6 +10,7 @@ import Home from "./Ui/Home";
 import Error from "./Ui/Error";
 import Order from "./features/order/Order";
 import AboutUs from "./Ui/AboutUs";
+import Blog from "./Ui/Blog";
 
 const router = createBrowserRouter([
   {
@@ -26,8 +27,12 @@ const router = createBrowserRouter([
         element: <Shop />,
       },
       {
-        path: "/aboutUs",
+        path: "/aboutus",
         element: <AboutUs />,
+      },
+      {
+        path: "/blog",
+        element: <Blog />,
       },
       {
         path: "/shop/:brandId",

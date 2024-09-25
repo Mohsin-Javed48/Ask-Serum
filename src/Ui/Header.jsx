@@ -1,5 +1,4 @@
 /** @format */
-import React from "react";
 
 const Header = () => {
   return (
@@ -9,22 +8,22 @@ const Header = () => {
         <span className="flex items-end">
           <img src="../../public/logo.png" className="h-12" alt="logo"></img>
           <div className="text-xl font-bold p-1">
-            <span className="m">Ask</span>
-            <span>Serum</span>
+            <span className="text-[#40E0D0]">Ask</span>
+            <span className="text-[#FFA500]">Serum</span>
           </div>
         </span>
         {/* Middle - Navigation Links */}
         <nav className="hidden md:flex space-x-6 text-gray-700">
-          <a href="#" className="text-black font-medium hover:text-gray-500">
+          <a href="/" className="text-black font-medium hover:text-gray-500">
             Home
           </a>
-          <a href="#" className="hover:text-gray-500">
+          <a href="/shop" className="hover:text-gray-500">
             Shop
           </a>
-          <a href="#" className="hover:text-gray-500">
-            Brand
+          <a href="/blog" className="hover:text-gray-500">
+            Blog
           </a>
-          <a href="#" className="hover:text-gray-500">
+          <a href="/aboutus" className="hover:text-gray-500">
             About us
           </a>
         </nav>
